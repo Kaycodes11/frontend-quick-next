@@ -1,0 +1,32 @@
+html, body {
+  padding: 0;
+  margin: 0;
+  background: #fff;
+}
+
+#root {
+  padding: 24px;
+}
+
+
+.ant-color-picker-trigger {
+  min-width: 32px;
+  height: 32px;
+  border-radius: 2px;
+  border: 1px solid #424242;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s;
+  background: #ffffff!important;
+  padding: 3px;
+}
+
+
+.ant-color-picker-trigger .ant-color-picker-trigger-text {
+  margin-inline-start: 8px;
+  margin-inline-end: 5px;
+  font-size: 14px;
+  color: black!important;
+}
